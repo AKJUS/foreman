@@ -19,6 +19,8 @@ firewall --service=ssh
 %end
 authselect --useshadow --passalgo=sha512 --kickstart
 timezone --utc UTC
+timesource --ntp-pool first.ntp-pool
+timesource --ntp-pool second.ntp-pool
 
 services --disabled gpm,sendmail,cups,pcmcia,isdn,rawdevices,hpoj,bluetooth,openibd,avahi-daemon,avahi-dnsconfd,hidd,hplip,pcscd
 
