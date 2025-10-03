@@ -46,6 +46,7 @@ import { deleteHost } from '../HostDetails/ActionsBar/actions';
 import {
   useForemanSettings,
   useForemanHostsPageUrl,
+  useForemanContext,
 } from '../../Root/Context/ForemanContext';
 import { bulkDeleteHosts } from './BulkActions/bulkDelete';
 import {
@@ -98,6 +99,7 @@ const HostsIndex = () => {
     apiOptions,
     defaultParams,
   });
+  const contextData = useForemanContext();
 
   const {
     response: {
@@ -144,16 +146,17 @@ const HostsIndex = () => {
   const columns = filterColumnDataByUserPreferences(
     isLoading,
     userColumns,
-    allColumns
+    allColumns,
+    contextData
   );
   const [columnNamesKeys, keysToColumnNames] = getColumnHelpers(columns);
-
   const columnSelectData = categoriesFromFrontendColumnData({
     registeredColumns: allColumns,
     userId: currentUserId,
     tableName: 'hosts',
     userColumns,
     hasPreference,
+    contextData,
   });
 
   const { pageRowCount } = getPageStats({ total, page, perPage });
