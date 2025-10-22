@@ -14,6 +14,7 @@ module.exports = {
           '2xl',
           '45vh',
           '4xl',
+          'activedescendant',
           'ampm',
           'Ansible',
           'ascii',
