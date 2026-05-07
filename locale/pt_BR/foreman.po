@@ -1515,6 +1515,9 @@ msgstr "Cancelar construção"
 msgid "Cancel build request for this host"
 msgstr "Cancelar requisição de construção para este host"
 
+msgid "Cancel the current build."
+msgstr ""
+
 msgid "Canceled pending build for %s"
 msgstr "Cancelada pendência de construção para %s"
 
@@ -6787,6 +6790,12 @@ msgstr "Nenhum proprietário selecionado!"
 msgid "No parameters were allocated to the selected hosts, can't mass assign"
 msgstr "Nenhum parâmetro foi alocado para os hosts selecionados; não é possível atribuir em massa."
 
+msgid "No permission to cancel the build."
+msgstr ""
+
+msgid "No permission to start build for this host."
+msgstr ""
+
 msgid "No plugins found"
 msgstr "Nenhum plug-in encontrado"
 
@@ -9424,6 +9433,9 @@ msgstr "SshKey|Nome"
 msgid "Start"
 msgstr "Iniciar"
 
+msgid "Start build for this host."
+msgstr ""
+
 msgid "Start typing to search"
 msgstr ""
 
@@ -10117,6 +10129,9 @@ msgid "The groups you added as external user groups were found. However, no user
 msgstr "Os grupos adicionados como grupos externos de usuários foram encontrados. Porém, nenhum usuário dentro dele que corresponda ao seu DN e filtro de base de origem de autenticação foi encontrado. Verifique se os grupos  externos de usuários pertencem no filtro de origem de autenticação"
 
 msgid "The host %s does not exist or there are access permissions needed. Please contact your administrator if this issue continues."
+msgstr ""
+
+msgid "The host must be powered off to build."
 msgstr ""
 
 msgid "The hostname of the LDAP server"

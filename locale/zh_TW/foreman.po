@@ -1460,6 +1460,9 @@ msgstr "取消組建"
 msgid "Cancel build request for this host"
 msgstr "取消這部主機的組建請求"
 
+msgid "Cancel the current build."
+msgstr ""
+
 msgid "Canceled pending build for %s"
 msgstr "已取消 %s 的處理中組建"
 
@@ -6717,6 +6720,12 @@ msgstr "並未選擇擁有者！"
 msgid "No parameters were allocated to the selected hosts, can't mass assign"
 msgstr ""
 
+msgid "No permission to cancel the build."
+msgstr ""
+
+msgid "No permission to start build for this host."
+msgstr ""
+
 msgid "No plugins found"
 msgstr "找不到外掛"
 
@@ -9339,6 +9348,9 @@ msgstr ""
 msgid "Start"
 msgstr "起始"
 
+msgid "Start build for this host."
+msgstr ""
+
 msgid "Start typing to search"
 msgstr ""
 
@@ -10031,6 +10043,9 @@ msgid "The groups you added as external user groups were found. However, no user
 msgstr ""
 
 msgid "The host %s does not exist or there are access permissions needed. Please contact your administrator if this issue continues."
+msgstr ""
+
+msgid "The host must be powered off to build."
 msgstr ""
 
 msgid "The hostname of the LDAP server"

@@ -1528,6 +1528,9 @@ msgstr "Annuler le build"
 msgid "Cancel build request for this host"
 msgstr "Annuler la demande de build de cet hôte"
 
+msgid "Cancel the current build."
+msgstr ""
+
 msgid "Canceled pending build for %s"
 msgstr "Demande de construction de l'hôte %s annulée"
 
@@ -3481,7 +3484,7 @@ msgid "Failed to remove certificates for %{name}: %{e}"
 msgstr "Échec de suppression de certificats pour %{name}: %{e}"
 
 msgid "Failed to render template '%{t}', error: %{e}"
-msgstr "Impossible de produire un modèle ’%{t}', erreur %{e}"
+msgstr "Impossible de produire un modèle ’%{t}', erreur: %{e}"
 
 msgid "Failed to retrieve power status for %{host} within %{req_timeout} second."
 msgid_plural "Failed to retrieve power status for %{host} within %{req_timeout} seconds."
@@ -5957,7 +5960,7 @@ msgid "Location fact"
 msgstr "Fact d'emplacement"
 
 msgid "Location is set to %s"
-msgstr "L'emplacement est défini sur  %s"
+msgstr "L'emplacement est défini sur %s"
 
 msgid "Location parameters"
 msgstr "Paramètres d'emplacement"
@@ -6804,6 +6807,12 @@ msgstr "Aucun propriétaire sélectionné."
 
 msgid "No parameters were allocated to the selected hosts, can't mass assign"
 msgstr "Aucun paramètre n'a été alloué aux hôtes sélectionnés, impossible d'effectuer une attribution en masse"
+
+msgid "No permission to cancel the build."
+msgstr ""
+
+msgid "No permission to start build for this host."
+msgstr ""
 
 msgid "No plugins found"
 msgstr "Aucun greffon trouvé"
@@ -8862,7 +8871,7 @@ msgid "Select users"
 msgstr "Choisir les utilisateurs"
 
 msgid "Select {taxonomy} to add hosts to. This change may affect all your selected hosts."
-msgstr "Selectionner{taxonomy} pour y ajouter des hôtes. Ce changement risque d’affecter tous vos hôtes sélectionnés."
+msgstr "Selectionner {taxonomy} pour y ajouter des hôtes. Ce changement risque d’affecter tous vos hôtes sélectionnés."
 
 msgid "Selectable values for user inputs"
 msgstr "Valeurs sélectionnables pour les entrées utilisateur"
@@ -9445,6 +9454,9 @@ msgstr "Nom"
 
 msgid "Start"
 msgstr "Démarrer"
+
+msgid "Start build for this host."
+msgstr ""
 
 msgid "Start typing to search"
 msgstr "Commencez à taper pour rechercher"
@@ -10140,6 +10152,9 @@ msgstr "Les groupes que vous avez ajoutés en tant que groupes d'utilisateurs ex
 
 msgid "The host %s does not exist or there are access permissions needed. Please contact your administrator if this issue continues."
 msgstr "L'hôte %s n'existe pas ou des autorisations d'accès sont nécessaires. Veuillez contacter votre administrateur si ce problème persiste."
+
+msgid "The host must be powered off to build."
+msgstr ""
 
 msgid "The hostname of the LDAP server"
 msgstr "Le nom d’hôte du serveur LDAP"

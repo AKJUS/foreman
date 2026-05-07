@@ -1450,6 +1450,9 @@ msgstr "ビルドの取り消し"
 msgid "Cancel build request for this host"
 msgstr "このホストのビルド要求を取り消し"
 
+msgid "Cancel the current build."
+msgstr ""
+
 msgid "Canceled pending build for %s"
 msgstr "%s の保留中ビルドを取り消しました"
 
@@ -6709,6 +6712,12 @@ msgstr "所有者が選択されていません!"
 msgid "No parameters were allocated to the selected hosts, can't mass assign"
 msgstr "パラメーターが選択されたホストに割り当てられなかったため、一括割り当てを実行できません"
 
+msgid "No permission to cancel the build."
+msgstr ""
+
+msgid "No permission to start build for this host."
+msgstr ""
+
 msgid "No plugins found"
 msgstr "プラグインが見つかりません"
 
@@ -9330,6 +9339,9 @@ msgstr "名前"
 msgid "Start"
 msgstr "開始"
 
+msgid "Start build for this host."
+msgstr ""
+
 msgid "Start typing to search"
 msgstr "入力して検索を開始"
 
@@ -10022,6 +10034,9 @@ msgstr "外部ユーザーグループとして追加したグループは見つ
 
 msgid "The host %s does not exist or there are access permissions needed. Please contact your administrator if this issue continues."
 msgstr "ホスト %s が存在しないか、アクセスパーミッションが必要です。この問題が続く場合は、管理者に連絡してください。"
+
+msgid "The host must be powered off to build."
+msgstr ""
 
 msgid "The hostname of the LDAP server"
 msgstr "LDAP サーバーのホスト名"

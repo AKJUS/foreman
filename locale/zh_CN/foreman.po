@@ -1452,6 +1452,9 @@ msgstr "取消构建"
 msgid "Cancel build request for this host"
 msgstr "取消创建主机的操作"
 
+msgid "Cancel the current build."
+msgstr ""
+
 msgid "Canceled pending build for %s"
 msgstr "取消对 %s 的待处理构建"
 
@@ -1954,7 +1957,7 @@ msgid "Could not find %{association} with name: %{name}"
 msgstr "找不到 %{association} 名称：%{name}"
 
 msgid "Could not find %{migration_name} migration in %{destination}"
-msgstr "无法在 %{destination} 中找到 %{migration_name} 迁移 "
+msgstr "无法在 %{destination} 中找到 %{migration_name} 迁移"
 
 msgid "Could not find a Configuration Template with the name \"%s\", please create one."
 msgstr "找不到名称为 \"%s\" 的置备模板，请创建一个。"
@@ -6711,6 +6714,12 @@ msgstr "未选择所有者！"
 msgid "No parameters were allocated to the selected hosts, can't mass assign"
 msgstr "没有为所选主机分配任何参数，不能批量分配"
 
+msgid "No permission to cancel the build."
+msgstr ""
+
+msgid "No permission to start build for this host."
+msgstr ""
+
 msgid "No plugins found"
 msgstr "未找到插件"
 
@@ -9332,6 +9341,9 @@ msgstr "Ssh 密钥|名称"
 msgid "Start"
 msgstr "开始"
 
+msgid "Start build for this host."
+msgstr ""
+
 msgid "Start typing to search"
 msgstr "开始输入来进行搜素"
 
@@ -10024,6 +10036,9 @@ msgstr "已找到您添加作为外部用户组的群组。但是，未从中找
 
 msgid "The host %s does not exist or there are access permissions needed. Please contact your administrator if this issue continues."
 msgstr "主机 %s 不存在，或需要访问权限。如果问题一直存在，请联系您的管理员。"
+
+msgid "The host must be powered off to build."
+msgstr ""
 
 msgid "The hostname of the LDAP server"
 msgstr "LDAP 服务器的主机名"

@@ -1465,6 +1465,9 @@ msgstr "აგების გაუქმება"
 msgid "Cancel build request for this host"
 msgstr "ამ ჰოსტის აგების მოთხოვნის გაუქმება"
 
+msgid "Cancel the current build."
+msgstr ""
+
 msgid "Canceled pending build for %s"
 msgstr "%s-ის აგება გაუქმებულია"
 
@@ -6721,6 +6724,12 @@ msgstr "მფლობელი არჩეული არაა!"
 msgid "No parameters were allocated to the selected hosts, can't mass assign"
 msgstr "არჩეულ ჰოსტებზე პარამეტრი არ იყო გამოყოფილი, მასობრივი მინიჭება შეუძლებელია"
 
+msgid "No permission to cancel the build."
+msgstr ""
+
+msgid "No permission to start build for this host."
+msgstr ""
+
 msgid "No plugins found"
 msgstr "დამატებები ნაპოვნი არაა"
 
@@ -9347,6 +9356,9 @@ msgstr "სახელი"
 msgid "Start"
 msgstr "დაწყება"
 
+msgid "Start build for this host."
+msgstr ""
+
 msgid "Start typing to search"
 msgstr ""
 
@@ -10040,6 +10052,9 @@ msgstr "თქვენ მიერ დამატებული ჯგუფ
 
 msgid "The host %s does not exist or there are access permissions needed. Please contact your administrator if this issue continues."
 msgstr "ჰოსტი (%s) არ არსებობს ან წვდომები არ გაგაჩნიათ. პრობლემის გადასაჭრელად დაუკავშირდით სისტემურ ადმინისტრატორს."
+
+msgid "The host must be powered off to build."
+msgstr ""
 
 msgid "The hostname of the LDAP server"
 msgstr "LDAP სერვერის ჰოსტის სახელი"

@@ -1459,6 +1459,9 @@ msgstr "Cancel·la la construcció"
 msgid "Cancel build request for this host"
 msgstr "Cancel·la la petició de construcció per a aquest amfitrió"
 
+msgid "Cancel the current build."
+msgstr ""
+
 msgid "Canceled pending build for %s"
 msgstr "S'ha cancel·lat la construcció pendent per %s"
 
@@ -6716,6 +6719,12 @@ msgstr "No hi ha cap propietari seleccionat!"
 msgid "No parameters were allocated to the selected hosts, can't mass assign"
 msgstr ""
 
+msgid "No permission to cancel the build."
+msgstr ""
+
+msgid "No permission to start build for this host."
+msgstr ""
+
 msgid "No plugins found"
 msgstr "No s'ha trobat cap connector"
 
@@ -9338,6 +9347,9 @@ msgstr ""
 msgid "Start"
 msgstr "Inicia"
 
+msgid "Start build for this host."
+msgstr ""
+
 msgid "Start typing to search"
 msgstr ""
 
@@ -10030,6 +10042,9 @@ msgid "The groups you added as external user groups were found. However, no user
 msgstr ""
 
 msgid "The host %s does not exist or there are access permissions needed. Please contact your administrator if this issue continues."
+msgstr ""
+
+msgid "The host must be powered off to build."
 msgstr ""
 
 msgid "The hostname of the LDAP server"
